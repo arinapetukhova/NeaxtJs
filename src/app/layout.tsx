@@ -58,7 +58,7 @@ export default function RootLayout({
                 </li>
                 <li>
                   <a
-                    href="/myportfolio"
+                    href="/NextJs/myportfolio"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-400 md:p-0"
                   >
                     Portfolio
