@@ -49,7 +49,7 @@ export default function RootLayout({
               <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
                 <li>
                   <a
-                    href="/"
+                    href="/NextJs/"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-400 md:p-0"
                     aria-current="page"
                   >
@@ -66,7 +66,7 @@ export default function RootLayout({
                 </li>
                 <li>
                   <a
-                    href="/comicfetch"
+                    href="/NextJs/comicfetch"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-400 md:p-0"
                   >
                     Comic
@@ -74,7 +74,7 @@ export default function RootLayout({
                 </li>
                 <li>
                   <a
-                    href="/aboutme"
+                    href="/NextJs/aboutme"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-400 md:p-0"
                   >
                     About me
@@ -82,7 +82,7 @@ export default function RootLayout({
                 </li>
                 <li>
                   <a
-                    href="/myphotos"
+                    href="/NextJs/myphotos"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-400 md:p-0"
                   >
                     Photos
