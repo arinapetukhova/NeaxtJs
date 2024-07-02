@@ -48,6 +48,8 @@ jobs:
             echo "Unable to determine package manager"
             exit 1
           fi
+      - name: Prettier Check
+        uses: rutajdash/prettier-cli-action@v1.0.2          
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
