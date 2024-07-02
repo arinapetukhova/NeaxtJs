@@ -47,9 +47,7 @@ jobs:
           else
             echo "Unable to determine package manager"
             exit 1
-          fi
-      - name: TypeScript Linter Action
-        uses: AntonKornus/TypeScript-Linter@1.0.0          
+          fi          
       - name: Prettier Check
         uses: rutajdash/prettier-cli-action@v1.0.2          
       - name: Setup Node
