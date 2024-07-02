@@ -53,10 +53,6 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
-      - name: Super-Linter
-        uses: super-linter/super-linter@v5.7.2
-      - name: Prettier, please!
-        uses: reiddraper/prettier-please@v0.0.1
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
