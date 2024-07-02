@@ -48,8 +48,8 @@ jobs:
             echo "Unable to determine package manager"
             exit 1
           fi
-      - name: kube-linter
-        uses: stackrox/kube-linter-action@v1.0.5
+      - name: TypeScript Linter Action
+        uses: AntonKornus/TypeScript-Linter@1.0.0          
       - name: Prettier Check
         uses: rutajdash/prettier-cli-action@v1.0.2          
       - name: Setup Node
