@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/NeaxtJs",
+  basePath: "/NeaxtJs/",
   output: "export",
   reactStrictMode: true,
 };
