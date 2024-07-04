@@ -4,7 +4,7 @@ export default function PhotosPage() {
   return (
     <div>
       <Head>
-        <title>Photos page</title>
+        <title>Innopolis photos page</title>
         <meta name="description"
             content="This is the photos page of my portfolio website" />
       </Head>
